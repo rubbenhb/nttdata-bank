@@ -1,4 +1,4 @@
-package com.ntt_data.proyect.customer;
+package com.example.gatewayserverservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class CustomerServiceApplication {
+public class GatewayServerServiceApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(CustomerServiceApplication.class, args);
+		SpringApplication.run(GatewayServerServiceApplication.class, args);
 	}
 }
