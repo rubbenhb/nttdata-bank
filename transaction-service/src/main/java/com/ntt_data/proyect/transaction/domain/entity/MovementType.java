@@ -1,4 +1,4 @@
-package com.ntt_data.proyect.transaction.domain.model.entity;
+package com.ntt_data.proyect.transaction.domain.entity;
 
 import lombok.Getter;
 import lombok.Setter;
