@@ -15,10 +15,10 @@ public class Cta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long cta;
-    @Column(name = "id_holders")
-    private Long idHolders;
     @Column(name = "date_creation")
     private Date dateCreation;
     @Column(name = "date_close")
-    private Boolean state;
+    private Date dateClose;
+    @Column(name = "state")
+    private String state;
 }

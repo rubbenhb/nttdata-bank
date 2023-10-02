@@ -18,7 +18,7 @@ public class Saving {
     @Column(name = "cta")
     private Long cta;
     @Column(name = "type_saving")
-    private Boolean typeSaving;
+    private String typeSaving;
     @Column(name = "balance")
     private Float balance;
     @Column(name = "commission")
@@ -26,7 +26,7 @@ public class Saving {
     @Column(name = "interest_rate")
     private Float interestRate;
     @Column(name = "state")
-    private Boolean state;
+    private String state;
     @Column(name = "num_mov")
     private Integer numMov;
     @Column(name = "date_creation")
