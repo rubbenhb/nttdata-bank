@@ -29,3 +29,6 @@ spring:
                 validator:
                     apply_to_ddl: false
         show-sql: true
+server:
+  error:
+    include-stacktrace: never
